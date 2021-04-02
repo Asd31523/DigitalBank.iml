@@ -10,7 +10,7 @@ public class CheckingAccountPage {
     public CheckingAccountPage (){
         PageFactory.initElements(Driver.getDriver(),this);
     }
-
+//sadfg
     @FindBy(xpath = "//strong[text()='New Checking Account']")
     public WebElement newCheckingAccountHeader;
     @FindBy(xpath = "//strong[text()='Select Checking Account Type']")
